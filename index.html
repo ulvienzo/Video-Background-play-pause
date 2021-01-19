@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+     <!-- preloader -->
+     <div class="preloader">
+      <img src="preloader.gif" alt="preloader" class="preloader__item" />
+    </div>
+    <!-- video  -->
+    <section class="main">
+      <div class="overlay"></div>
+      <video autoplay muted loop id="myVideo">
+        <source src="bgvideo.mp4" type="video/mp4" />
+      </video>
+      <div class="content">
+        <h1 class="title">galaxy flows through my eyes</h1>
+        <button id="btn">
+          <span>play</span>
+          <span>Pause</span>
+          <div class="switcher"></div>
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
